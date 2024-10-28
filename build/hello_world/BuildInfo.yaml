@@ -1,0 +1,32 @@
+---
+compiled_package_info:
+  package_name: hello_world
+  address_alias_instantiation:
+    counter: "0000000000000000000000000000000000000000000000000000000000000000"
+    hello_world: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    to_do_list: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 450FCC39AFE08CDC355EE37D20E4DC135E268378A2BEB19C2853EF52A7082AB3
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
